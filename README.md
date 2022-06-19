@@ -1,44 +1,44 @@
-[08:02] Baumgartner Natascha
+[08:02] Grabner-Haider Julia
 # Team Work
 ### Projectname
-[groupwork_NB_AU](https://github.com/AllyssaUlz/groupwork_NB_AU.git)
+[groupwork_MP_JGH](https://github.com/MonikaP-28/JuliaAndMonika.git)
 
 ### Group members
-* Allyssa Ulz
-* Natascha Baumgartner
+* Monika Popic
+* Julia Grabner-Haider
 
 ## Overview
 ## Features
 ### Implementation
-- [x] AU - Create a new repository on GitHub
-- [x] AU - Invite your group member as an collaborator
+- [x] AU - Create new repository on GitHub
+- [x] AU - Invite group member as collaborator
 
 #### Maven Project
-- [ ] AU - Create a new Maven-Project in your repository folder and integrate two submissions from Moodle
-- [ ] AU - Create a package - at.fhj.msd
-- [ ] AU - Create a .gitignore file
+- [ ] AU - Create new Maven-Project in repository folder and integrate two submissions from Moodle
+- [ ] AU - Create package - at.C02.bsd
+- [ ] AU - Create .gitignore file
 - [ ] AU - Put the starting version of your colleagues on GitHub
 
 #### README File
-- [x] NB - Create a README
-- [ ] NB - Read the whole exercise instructions
-- [ ] NB - Create a list with all exercise
-- [ ] NB - Make the changes available to your colleagues
+- [x] NB - Create README
+- [ ] NB - Read exercise instructions
+- [ ] NB - Create list with all exercise
+- [ ] NB - Make the changes available to colleagues
 
 #### POM File
-- [ ] XXX - Expand your pom.xml
-- [ ] AU & NB - Add your developer informations
+- [ ] XXX - Expand pom.xml
+- [ ] JGH & MP - Add your developer informations
 
 #### Errors
-- [ ] XXX - Correct the three errors you should have
-- [ ] XXX - Set the error correction in your own branch and merge the result back
-- [ ] XXX - Make the changes available to your colleagues and don't forget to update the tasklist
+- [ ] XXX - Correct three errors you should have
+- [ ] XXX - Set error correction in your own branch and merge the result back
+- [ ] XXX - Make changes available to colleagues and don't forget to update the tasklist
 
 #### NEW Implementation
-- [ ] XXX - Create parallel to your current Version a new implementation
+- [ ] XXX - Create parallel to current Version a new implementation
 - [ ] XXX - Integrate the "Drinks" - Interface and implementing class in the project
-- [ ] XXX - Create a queue version they will enables "Drinks" to manage in a queue
-- [ ] AU & NB - Share the methods specified by the interface, so every group member create the same number of methods. Set your parts in your own branch
+- [ ] XXX - Create queue version they will enables "Drinks" to manage in queue
+- [ ] MP & JGH - Share the methods specified by interface, so every group member create the same number of methods. Set parts in your own branch
 - [ ] XXX - Add JavaDoc commentary for the current classes and for the new variants
 - [ ] XXX - Make the changes available to your colleagues
 
