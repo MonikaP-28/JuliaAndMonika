@@ -6,6 +6,7 @@ import java.util.NoSuchElementException;
 
 public class QueueDrinks implements IQueueDrinks{
 
+
     private List<Drink> elements = new ArrayList<Drink>();
     private int maxSize = 5;
 
@@ -13,6 +14,11 @@ public class QueueDrinks implements IQueueDrinks{
         maxSize = maxSize;
     }
 
+    /**
+     * method add object to queue
+     * @param obj
+     * @return returns true if it works
+     */
     @Override
     public boolean offer(Drink obj) {
         if (elements.size() != maxSize){
@@ -24,6 +30,10 @@ public class QueueDrinks implements IQueueDrinks{
         return true;
     }
 
+    /**
+     * @return  first element
+     * first element deleted
+     */
     @Override
     public Drink poll() {
         Drink element = peek();
@@ -32,6 +42,10 @@ public class QueueDrinks implements IQueueDrinks{
         }
         return element;
     }
+    /**
+     * return the first element
+     * @exception throws NoSuchElementException if it doesn't exist
+     */
 
     @Override
     public Drink remove() {
@@ -41,6 +55,11 @@ public class QueueDrinks implements IQueueDrinks{
         }
         return element;
     }
+    /**
+     * get the first element
+     * if list is empty it returns -1
+     * @return null or first element
+     */
 
     @Override
     public Drink peek() {
@@ -52,7 +71,11 @@ public class QueueDrinks implements IQueueDrinks{
 
         return element;
     }
-
+    /**
+     * get the first element
+     * @return first element
+     * @throws throws NoSuchElementException if element doesn't exist
+     */
     @Override
     public Drink element() {
         Drink element = peek();
