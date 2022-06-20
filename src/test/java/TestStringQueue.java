@@ -17,7 +17,7 @@ public class TestStringQueue {
     void pollTest(){
         squeue.offer("IceTea");
         String result = squeue.poll();
-        assertEquals("appleJuice" ,result);
+        assertEquals("IceTea" ,result);
     }
     @Test
     void removeTest(){
