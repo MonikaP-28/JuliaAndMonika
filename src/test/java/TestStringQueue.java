@@ -1,41 +1,38 @@
 package at.campus02.bsd;
 
 import at.campus02.bsd.drinks.*;
-import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
-
-import java.util.NoSuchElementException;
 import static org.junit.jupiter.api.Assertions.*;
 
 public class TestStringQueue {
 
-    StringQueue stringQueue = new StringQueue(3);
+    StringQueue squeue = new StringQueue(3);
 
     @Test
     void offerTest(){
-        Boolean result = stringQueue.offer("appleJuice");
+        Boolean result = squeue.offer("IceTea");
         assertEquals(true, result);
     }
 
     @Test
     void pollTest(){
-        stringQueue.offer("appleJuice");
-        String result = stringQueue.poll();
+        squeue.offer("IceTea");
+        String result = squeue.poll();
         assertEquals("appleJuice" ,result);
     }
     @Test
     void removeTest(){
-        stringQueue.offer("appleJuice");
-        String result = stringQueue.remove();
-        assertEquals("appleJuice" ,result);
+        squeue.offer("IceTea");
+        String result = squeue.remove();
+        assertEquals("IceTea" ,result);
 
     }
     @Test
-    void peekTest(){ assertEquals(null, stringQueue.peek());}
+    void peekTest(){ assertEquals(null, squeue.peek());}
 
     @Test
     void elementTest(){
-        stringQueue.offer("appleJuice");
-        assertEquals("appleJuice", stringQueue.element());
+        squeue.offer("IceTea");
+        assertEquals("IceTea", squeue.element());
     }
 }
