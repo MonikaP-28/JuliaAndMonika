@@ -54,6 +54,7 @@
 - [x] XXX - Write in the JavaDoc & comments how to do what aspect testing
 - [x] XXX - Split testing within the group and implement in Branch
 - [x] XXX - Error-free call via command line
+![mvn](mvnTest.jpg)
 - [x] XXX - Changes are made available to colleagues
 
 #### Maven site documentation 
