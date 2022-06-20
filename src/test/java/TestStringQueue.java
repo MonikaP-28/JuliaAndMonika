@@ -1,6 +1,10 @@
 package at.campus02.bsd;
 
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
+
+import java.util.NoSuchElementException;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 public class TestStringQueue {
@@ -52,6 +56,6 @@ public class TestStringQueue {
     void elementTest(){
         squeue.offer("IceTea");
         assertEquals("IceTea", squeue.element());
-        Assertions.assertThrows(NoSuchElementException.class, () ->{squeue.element})
+        Assertions.assertThrows(NoSuchElementException.class, () ->{squeue.element();});
     }
 }
