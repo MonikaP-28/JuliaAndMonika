@@ -49,6 +49,11 @@
 - [ ] XXX -
 - [ ] 
 
+#### Errors 
+
+- there was an "s" in the last line of the document
+- in method "remove" one line was removed
+- in method "poll" was previously elements.remove(0) and was replaced by elements.remove(elements)
 
 ## Future Ideas
 ## References
