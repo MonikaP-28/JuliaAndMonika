@@ -31,8 +31,8 @@ public class StringQueue implements IQueue {
   @Override
   public String poll() {
     String element = peek();
-    if (elements.size() != 0) {
-      elements.remove(element);
+    if (elements.size() > 0) {
+      elements.remove(0);
     }
     return element;
   }
