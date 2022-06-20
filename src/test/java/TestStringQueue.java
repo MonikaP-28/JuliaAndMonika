@@ -54,8 +54,6 @@ public class TestStringQueue {
      */
     @Test
     void elementTest(){
-        squeue.offer("IceTea");
-        assertEquals("IceTea", squeue.element());
-        Assertions.assertThrows(NoSuchElementException.class, () ->{squeue.element();});
+        Assertions.assertThrows(NoSuchElementException.class, () -> {squeue.element();});
     }
 }
