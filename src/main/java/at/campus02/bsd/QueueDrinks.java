@@ -43,7 +43,7 @@ public class QueueDrinks implements IQueueDrinks{
         return element;
     }
     /**
-     * return the first element
+     * method return the first element
      * @exception throws NoSuchElementException if it doesn't exist
      */
 
@@ -56,7 +56,7 @@ public class QueueDrinks implements IQueueDrinks{
         return element;
     }
     /**
-     * get the first element
+     * method get the first element
      * if list is empty it returns -1
      * @return null or first element
      */
@@ -72,7 +72,7 @@ public class QueueDrinks implements IQueueDrinks{
         return element;
     }
     /**
-     * get the first element
+     * method get the first element
      * @return first element
      * @throws throws NoSuchElementException if element doesn't exist
      */
