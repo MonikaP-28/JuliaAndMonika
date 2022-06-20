@@ -26,41 +26,41 @@
 - [x] JGH - Make the changes available to colleagues
 
 #### POM File
-- [x] XXX - Expand pom.xml
+- [x] MP - Expand pom.xml
 - [x] JGH & MP - Add your developer informations
 
 #### Errors
-- [x] XXX - Correct three errors you should have
-- [x] XXX - Set error correction in your own branch and merge the result back
-- [x] XXX - Make changes available to colleagues and don't forget to update the tasklist
+- [x] MP - Correct three errors you should have
+- [x] MP - Set error correction in your own branch and merge the result back
+- [x] MP - Make changes available to colleagues and don't forget to update the tasklist
 
 #### the three Errors
 - there was an "s" in the last line of the document
 - in method "remove" one line was removed
-- in method "poll" was previously elements.remove(0) and was replaced by elements.remove(elements)
+- in method "poll" changed elements.size()>0
 
 
 #### NEW Implementation
-- [x] XXX - Create parallel to current Version a new implementation
-- [x] XXX - Integrate the "Drinks" - Interface and implementing class in the project
-- [x] XXX - Create queue version they will enables "Drinks" to manage in queue
+- [x] MP & JGH - Create parallel to current Version a new implementation
+- [x] MP - Integrate the "Drinks" - Interface and implementing class in the project
+- [x] JGH - Create queue version they will enables "Drinks" to manage in queue
 - [x] MP & JGH - Share the methods specified by interface, so every group member create the same number of methods. Set parts in your own branch
-- [x] XXX - Add JavaDoc commentary for the current classes and for the new variants
-- [x] XXX - Make the changes available to your colleagues
+- [x] JGH - Add JavaDoc commentary for the current classes and for the new variants
+- [x] MP & JGH - Make the changes available to your colleagues
 
 #### Tests
-- [x] XXX - Create test methods to have a hundred percent for the existing implentation to recive all test cover
-- [x] XXX - Create a further test file and test the new "Drinks" version with a class you choose - Reach a 100 % test cover
-- [x] XXX - Write in the JavaDoc & comments how to do what aspect testing
-- [x] XXX - Split testing within the group and implement in Branch
-- [x] XXX - Error-free call via command line
+- [x] MP & JGH - Create test methods to have a hundred percent for the existing implentation to recive all test cover
+- [x] MP & JGH - Create a further test file and test the new "Drinks" version with a class you choose - Reach a 100 % test cover
+- [x] MP & JGH - Write in the JavaDoc & comments how to do what aspect testing
+- [x] MP - Split testing within the group and implement in Branch
+- [x] - Error-free call via command line
 ![mvn](mvnTest.jpg)
-- [x] XXX - Changes are made available to colleagues
+- [x] MP & JGH - Changes are made available to colleagues
 
 #### Maven site documentation 
-- [x] XXX - Integrate and adapt general project information, test statistics and also the generated API documentation.
+- [x] MP & JGH - Integrate and adapt general project information, test statistics and also the generated API documentation.
 - [x] JGH & MP - insert one Markdown file per member (description of the contributions during the implementation of the project)
-- [x] XXX - Error-free call via command line 
+- [x] MP & JGH - Error-free call via command line 
 
 
 
