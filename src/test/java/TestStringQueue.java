@@ -1,6 +1,5 @@
 package at.campus02.bsd;
 
-import at.campus02.bsd.drinks.*;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
